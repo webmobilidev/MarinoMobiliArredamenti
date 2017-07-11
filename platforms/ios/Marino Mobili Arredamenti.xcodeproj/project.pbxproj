@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
+		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
+		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		AF123988D21B4BF6A442645F /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = D92EE7E4CF9B439DA26D8A01 /* AppDelegate+notification.m */; };
+		DF70A2881253414EB5CF6AE3 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EB51AEFA8B4F47ABAD637370 /* PushPlugin.m */; };
+		BF5CDB98085749A983E99972 /* libGGLCloudMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDC2154CC0C488E85936B95 /* libGGLCloudMessaging.a */; };
+		272B346E78A84E52B45839C0 /* libGGLCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5AF86E1F6B4BE08C5B8D57 /* libGGLCore.a */; };
+		6FDC318D20C04DD7A8E582DB /* libGGLInstanceIDLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2301D8854264E5FB2C86033 /* libGGLInstanceIDLib.a */; };
+		419A43D956F84BDCB75E1C49 /* libGIP_Reachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EE095821CA47ABB19CD4E9 /* libGIP_Reachability.a */; };
+		BD2BA71B7F1C4CA2A9ADC5D5 /* libGSDK_Overload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F32A3FBB40D747219650737D /* libGSDK_Overload.a */; };
+		8B8BD80B10E54B42B11E9AE3 /* libGTMSessionFetcher_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE2782D05E643DABF19F8DB /* libGTMSessionFetcher_core.a */; };
+		32ADF8CA7CEE4BA19ACCF711 /* libGTMSessionFetcher_full.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E72DC5B154FA1834E171C /* libGTMSessionFetcher_full.a */; };
+		C8BBC68A95AD4E2D80799121 /* libGTMStackTrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4D93F69B044993A26D8F28 /* libGTMStackTrace.a */; };
+		3A09A0F1EF634B59847CB311 /* libGTM_AddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3726A2877A4E4368B7F82B2E /* libGTM_AddressBook.a */; };
+		87B022FE84C8412CB252BA42 /* libGTM_DebugUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B854A66CC04684BC92E530 /* libGTM_DebugUtils.a */; };
+		C186620FBE614410931BA8C1 /* libGTM_GTMURLBuilder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77A59345FDF4C3D86F1A468 /* libGTM_GTMURLBuilder.a */; };
+		0C76948C83564F9D9FBC8706 /* libGTM_KVO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6D6CE411C946FC98C83368 /* libGTM_KVO.a */; };
+		E7F3BDA71769440F9FD6DDCB /* libGTM_NSData+zlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BE07C8644443F890FDF675 /* libGTM_NSData+zlib.a */; };
+		C852985957C04A5D8FD08F21 /* libGTM_NSDictionary+URLArguments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EED6EB38B64756A293A5A8 /* libGTM_NSDictionary+URLArguments.a */; };
+		2398EE26ACAB469395244B43 /* libGTM_NSScannerJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C87731EA324C2791D15C69 /* libGTM_NSScannerJSON.a */; };
+		B820C4C3055146B286DF65D2 /* libGTM_NSStringHTML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8BF2F7AC62437AAD238774 /* libGTM_NSStringHTML.a */; };
+		724BB815DB0E4364B6FB1BA9 /* libGTM_NSStringXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A46FD6245E49B58AD0E944 /* libGTM_NSStringXML.a */; };
+		083CB427387941168CB7B1BC /* libGTM_Regex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4FD15981A94A878D4CC569 /* libGTM_Regex.a */; };
+		608BAAD11E724520AD3574BF /* libGTM_RoundedRectPath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5BFEE7895F473A96997D3B /* libGTM_RoundedRectPath.a */; };
+		E3CDCFE05021422ABA595134 /* libGTM_StringEncoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6CCA9AF8534EA0A0A4E9DC /* libGTM_StringEncoding.a */; };
+		59CDC5D34E0B4D29937D4AD1 /* libGTM_SystemVersion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36762CEED1B7479E928FC511 /* libGTM_SystemVersion.a */; };
+		C6AF9DB84ACA41BD91A80EAC /* libGTM_UIFont+LineHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA5EF3EA31E4078B05E0459 /* libGTM_UIFont+LineHeight.a */; };
+		6044AA79BB8C478BB404ECB7 /* libGTM_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F767C1A4AA44835ABBEC37B /* libGTM_core.a */; };
+		26025ACC2714416D8F9700FF /* libGTM_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF634149D3E4995B61132D8 /* libGTM_iPhone.a */; };
+		7DC5A674F2E84527980D9447 /* libGcmLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC19E97446B4AA5AC94499F /* libGcmLib.a */; };
+		C3635606E1484959BBDC6652 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75748E549ABE4811903F603A /* libProtocolBuffers.a */; };
+		7981B565DE8A4B66865A44D4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D6B3D710474BD9875B0F25 /* AddressBook.framework */; };
+		D19E35522DBF484DAF9A50BB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE6BBD0DBD641038803CA18 /* libsqlite3.tbd */; };
+		24A7A89978BC4F81839BFDEB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B46B364B957433DAC65BB7A /* libz.tbd */; };
+		2C9B29F0BE2548E6A5AF4C04 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC88079C8B4F0694C6A9EF /* CDVDevice.m */; };
+		2D32E881B3E64C38828C6AFA /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E71ACD90B4A64B81BC3182C1 /* CDVNotification.m */; };
+		207D15A3250B4E95B8241D2A /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09BE7A5F5C5A4CA9B4757DC1 /* CDVNotification.bundle */; };
+		F5C1C632A682436EAE85D470 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D97D62E0D7C4B6FB4AF1CD3 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A8D8597D39354FD0B5AEFA09 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55B8D1C38A4E04910761B8 /* CDVInAppBrowser.m */; };
+		0D9C24354F8B4C7BBAE27118 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B927600C6C1C42C48DECEA14 /* CDVConnection.m */; };
+		40374D619CA54BBB925BD4E1 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DE13C5FDBC9F4A7881D660CB /* CDVReachability.m */; };
+		A22690B7690647C0B926374D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB3A2D1B3924FD6A3737D3C /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8FB80DE755EB45948764138C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78AC67DD5904FABA56E3CD2 /* CoreTelephony.framework */; };
+		06CD27A174E24301A8D84DD2 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AC41BDF2724FD78A1E0300 /* CDVStatusBar.m */; };
+		080AC09173EF4787BEFF341D /* NSString+SSURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6074B81029B240319C1648D9 /* NSString+SSURLEncoding.m */; };
+		CD55C58D305D4FF9A29ED55C /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 223C74094F8A4B48AA963435 /* SocialSharing.m */; };
+		423B63EECC4B47509BB40744 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7433F0CBF2FB4BC1B57B17B6 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		79BA62967E0D41A4A26C080A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C479C937C4F4063A4E427DF /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Marino Mobili Arredamenti/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Marino Mobili Arredamenti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marino Mobili Arredamenti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* Marino Mobili Arredamenti-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Marino Mobili Arredamenti-Prefix.pch"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "Marino Mobili Arredamenti/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* Marino Mobili Arredamenti-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Marino Mobili Arredamenti-Info.plist"; path = "Marino Mobili Arredamenti/Marino Mobili Arredamenti-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Marino Mobili Arredamenti/config.xml"; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D92EE7E4CF9B439DA26D8A01 /* AppDelegate+notification.m */ = {isa = PBXFileReference; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		EB51AEFA8B4F47ABAD637370 /* PushPlugin.m */ = {isa = PBXFileReference; name = "PushPlugin.m"; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		7FDC2154CC0C488E85936B95 /* libGGLCloudMessaging.a */ = {isa = PBXFileReference; name = "libGGLCloudMessaging.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGGLCloudMessaging.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		6E5AF86E1F6B4BE08C5B8D57 /* libGGLCore.a */ = {isa = PBXFileReference; name = "libGGLCore.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGGLCore.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		D2301D8854264E5FB2C86033 /* libGGLInstanceIDLib.a */ = {isa = PBXFileReference; name = "libGGLInstanceIDLib.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGGLInstanceIDLib.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		60EE095821CA47ABB19CD4E9 /* libGIP_Reachability.a */ = {isa = PBXFileReference; name = "libGIP_Reachability.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGIP_Reachability.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F32A3FBB40D747219650737D /* libGSDK_Overload.a */ = {isa = PBXFileReference; name = "libGSDK_Overload.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGSDK_Overload.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		0BE2782D05E643DABF19F8DB /* libGTMSessionFetcher_core.a */ = {isa = PBXFileReference; name = "libGTMSessionFetcher_core.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTMSessionFetcher_core.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		7B9E72DC5B154FA1834E171C /* libGTMSessionFetcher_full.a */ = {isa = PBXFileReference; name = "libGTMSessionFetcher_full.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTMSessionFetcher_full.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		7F4D93F69B044993A26D8F28 /* libGTMStackTrace.a */ = {isa = PBXFileReference; name = "libGTMStackTrace.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTMStackTrace.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		3726A2877A4E4368B7F82B2E /* libGTM_AddressBook.a */ = {isa = PBXFileReference; name = "libGTM_AddressBook.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_AddressBook.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		E0B854A66CC04684BC92E530 /* libGTM_DebugUtils.a */ = {isa = PBXFileReference; name = "libGTM_DebugUtils.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_DebugUtils.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		B77A59345FDF4C3D86F1A468 /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; name = "libGTM_GTMURLBuilder.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_GTMURLBuilder.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		6D6D6CE411C946FC98C83368 /* libGTM_KVO.a */ = {isa = PBXFileReference; name = "libGTM_KVO.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_KVO.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		99BE07C8644443F890FDF675 /* libGTM_NSData+zlib.a */ = {isa = PBXFileReference; name = "libGTM_NSData+zlib.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSData+zlib.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F1EED6EB38B64756A293A5A8 /* libGTM_NSDictionary+URLArguments.a */ = {isa = PBXFileReference; name = "libGTM_NSDictionary+URLArguments.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSDictionary+URLArguments.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		C5C87731EA324C2791D15C69 /* libGTM_NSScannerJSON.a */ = {isa = PBXFileReference; name = "libGTM_NSScannerJSON.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSScannerJSON.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		0F8BF2F7AC62437AAD238774 /* libGTM_NSStringHTML.a */ = {isa = PBXFileReference; name = "libGTM_NSStringHTML.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSStringHTML.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		10A46FD6245E49B58AD0E944 /* libGTM_NSStringXML.a */ = {isa = PBXFileReference; name = "libGTM_NSStringXML.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_NSStringXML.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		7F4FD15981A94A878D4CC569 /* libGTM_Regex.a */ = {isa = PBXFileReference; name = "libGTM_Regex.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_Regex.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		9C5BFEE7895F473A96997D3B /* libGTM_RoundedRectPath.a */ = {isa = PBXFileReference; name = "libGTM_RoundedRectPath.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_RoundedRectPath.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		0B6CCA9AF8534EA0A0A4E9DC /* libGTM_StringEncoding.a */ = {isa = PBXFileReference; name = "libGTM_StringEncoding.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_StringEncoding.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		36762CEED1B7479E928FC511 /* libGTM_SystemVersion.a */ = {isa = PBXFileReference; name = "libGTM_SystemVersion.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_SystemVersion.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BCA5EF3EA31E4078B05E0459 /* libGTM_UIFont+LineHeight.a */ = {isa = PBXFileReference; name = "libGTM_UIFont+LineHeight.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_UIFont+LineHeight.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		6F767C1A4AA44835ABBEC37B /* libGTM_core.a */ = {isa = PBXFileReference; name = "libGTM_core.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_core.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		EDF634149D3E4995B61132D8 /* libGTM_iPhone.a */ = {isa = PBXFileReference; name = "libGTM_iPhone.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGTM_iPhone.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		CEC19E97446B4AA5AC94499F /* libGcmLib.a */ = {isa = PBXFileReference; name = "libGcmLib.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libGcmLib.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		75748E549ABE4811903F603A /* libProtocolBuffers.a */ = {isa = PBXFileReference; name = "libProtocolBuffers.a"; path = "Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries/libProtocolBuffers.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		68C2ADEB8883455CA787D5C7 /* AppDelegate+notification.h */ = {isa = PBXFileReference; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		8E2044A3FA4C44B3A32C85F5 /* PushPlugin.h */ = {isa = PBXFileReference; name = "PushPlugin.h"; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6DB3FD7B3D604F8689BA7D63 /* GGLInstanceID.h */ = {isa = PBXFileReference; name = "GGLInstanceID.h"; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceID.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		8106D4E7F4A44DEFBBC0B6D9 /* GGLInstanceIDConfig.h */ = {isa = PBXFileReference; name = "GGLInstanceIDConfig.h"; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceIDConfig.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		8359B65EC31A4382A05BC592 /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; name = "GGLInstanceIDDelegate.h"; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceIDDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9734C87AACC649B5A4C60571 /* GGLInstanceIDHeaders.h */ = {isa = PBXFileReference; name = "GGLInstanceIDHeaders.h"; path = "phonegap-plugin-push/GCM/Headers/GGLInstanceIDHeaders.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F9E52CB55C2E4818AA696C9E /* CloudMessaging.h */ = {isa = PBXFileReference; name = "CloudMessaging.h"; path = "phonegap-plugin-push/GCM/Headers/CloudMessaging.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9804D95CC803472BABBDCD72 /* GGLContext+CloudMessaging.h */ = {isa = PBXFileReference; name = "GGLContext+CloudMessaging.h"; path = "phonegap-plugin-push/GCM/Headers/GGLContext+CloudMessaging.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		69F7814189C84AE780DE3AAF /* Core.h */ = {isa = PBXFileReference; name = "Core.h"; path = "phonegap-plugin-push/GCM/Headers/Core.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1A928DD445244C269EC284F9 /* GGLConfiguration.h */ = {isa = PBXFileReference; name = "GGLConfiguration.h"; path = "phonegap-plugin-push/GCM/Headers/GGLConfiguration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		261B9D3ABA97424190F0CE0C /* GGLContext.h */ = {isa = PBXFileReference; name = "GGLContext.h"; path = "phonegap-plugin-push/GCM/Headers/GGLContext.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1882EEF5539B48E28F104920 /* GGLErrorCode.h */ = {isa = PBXFileReference; name = "GGLErrorCode.h"; path = "phonegap-plugin-push/GCM/Headers/GGLErrorCode.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		70789052AC904329BEC3A629 /* GCMConfig.h */ = {isa = PBXFileReference; name = "GCMConfig.h"; path = "phonegap-plugin-push/GCM/Headers/GCMConfig.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E990AB98F7824E6380189FA0 /* GCMPubSub.h */ = {isa = PBXFileReference; name = "GCMPubSub.h"; path = "phonegap-plugin-push/GCM/Headers/GCMPubSub.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		317ED0874716434AA801A67D /* GCMReceiverDelegate.h */ = {isa = PBXFileReference; name = "GCMReceiverDelegate.h"; path = "phonegap-plugin-push/GCM/Headers/GCMReceiverDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0195F3B43F694318BC58FE25 /* GCMService.h */ = {isa = PBXFileReference; name = "GCMService.h"; path = "phonegap-plugin-push/GCM/Headers/GCMService.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		59DBE4125AC348F18787DEBB /* GoogleCloudMessaging.h */ = {isa = PBXFileReference; name = "GoogleCloudMessaging.h"; path = "phonegap-plugin-push/GCM/Headers/GoogleCloudMessaging.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		19D6B3D710474BD9875B0F25 /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		8EE6BBD0DBD641038803CA18 /* libsqlite3.tbd */ = {isa = PBXFileReference; name = "libsqlite3.tbd"; path = "usr/lib/libsqlite3.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		9B46B364B957433DAC65BB7A /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		8ACC88079C8B4F0694C6A9EF /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		CED777DFE33344179DB7EE6C /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E71ACD90B4A64B81BC3182C1 /* CDVNotification.m */ = {isa = PBXFileReference; name = "CDVNotification.m"; path = "cordova-plugin-dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6E6E3375F4AC4F2F8BF1B470 /* CDVNotification.h */ = {isa = PBXFileReference; name = "CDVNotification.h"; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		09BE7A5F5C5A4CA9B4757DC1 /* CDVNotification.bundle */ = {isa = PBXFileReference; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		4D97D62E0D7C4B6FB4AF1CD3 /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		CE55B8D1C38A4E04910761B8 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9C7DE3857326418AB7B34DC8 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B927600C6C1C42C48DECEA14 /* CDVConnection.m */ = {isa = PBXFileReference; name = "CDVConnection.m"; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		DE13C5FDBC9F4A7881D660CB /* CDVReachability.m */ = {isa = PBXFileReference; name = "CDVReachability.m"; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0AB7BD2047A54765ABEDA1E3 /* CDVConnection.h */ = {isa = PBXFileReference; name = "CDVConnection.h"; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		79425A6481354912ACF4A937 /* CDVReachability.h */ = {isa = PBXFileReference; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5FB3A2D1B3924FD6A3737D3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A78AC67DD5904FABA56E3CD2 /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		47AC41BDF2724FD78A1E0300 /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		4A167444779D4F55BF977CDF /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6074B81029B240319C1648D9 /* NSString+SSURLEncoding.m */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.m"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		223C74094F8A4B48AA963435 /* SocialSharing.m */ = {isa = PBXFileReference; name = "SocialSharing.m"; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		EE0BA611B0D34AAEB0A39A41 /* NSString+SSURLEncoding.h */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.h"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		49CD4AF19A4949E5A53FB0C4 /* SocialSharing.h */ = {isa = PBXFileReference; name = "SocialSharing.h"; path = "cordova-plugin-x-socialsharing/SocialSharing.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7433F0CBF2FB4BC1B57B17B6 /* Social.framework */ = {isa = PBXFileReference; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		5C479C937C4F4063A4E427DF /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				BF5CDB98085749A983E99972 /* libGGLCloudMessaging.a in Frameworks */,
+				272B346E78A84E52B45839C0 /* libGGLCore.a in Frameworks */,
+				6FDC318D20C04DD7A8E582DB /* libGGLInstanceIDLib.a in Frameworks */,
+				419A43D956F84BDCB75E1C49 /* libGIP_Reachability.a in Frameworks */,
+				BD2BA71B7F1C4CA2A9ADC5D5 /* libGSDK_Overload.a in Frameworks */,
+				8B8BD80B10E54B42B11E9AE3 /* libGTMSessionFetcher_core.a in Frameworks */,
+				32ADF8CA7CEE4BA19ACCF711 /* libGTMSessionFetcher_full.a in Frameworks */,
+				C8BBC68A95AD4E2D80799121 /* libGTMStackTrace.a in Frameworks */,
+				3A09A0F1EF634B59847CB311 /* libGTM_AddressBook.a in Frameworks */,
+				87B022FE84C8412CB252BA42 /* libGTM_DebugUtils.a in Frameworks */,
+				C186620FBE614410931BA8C1 /* libGTM_GTMURLBuilder.a in Frameworks */,
+				0C76948C83564F9D9FBC8706 /* libGTM_KVO.a in Frameworks */,
+				E7F3BDA71769440F9FD6DDCB /* libGTM_NSData+zlib.a in Frameworks */,
+				C852985957C04A5D8FD08F21 /* libGTM_NSDictionary+URLArguments.a in Frameworks */,
+				2398EE26ACAB469395244B43 /* libGTM_NSScannerJSON.a in Frameworks */,
+				B820C4C3055146B286DF65D2 /* libGTM_NSStringHTML.a in Frameworks */,
+				724BB815DB0E4364B6FB1BA9 /* libGTM_NSStringXML.a in Frameworks */,
+				083CB427387941168CB7B1BC /* libGTM_Regex.a in Frameworks */,
+				608BAAD11E724520AD3574BF /* libGTM_RoundedRectPath.a in Frameworks */,
+				E3CDCFE05021422ABA595134 /* libGTM_StringEncoding.a in Frameworks */,
+				59CDC5D34E0B4D29937D4AD1 /* libGTM_SystemVersion.a in Frameworks */,
+				C6AF9DB84ACA41BD91A80EAC /* libGTM_UIFont+LineHeight.a in Frameworks */,
+				6044AA79BB8C478BB404ECB7 /* libGTM_core.a in Frameworks */,
+				26025ACC2714416D8F9700FF /* libGTM_iPhone.a in Frameworks */,
+				7DC5A674F2E84527980D9447 /* libGcmLib.a in Frameworks */,
+				C3635606E1484959BBDC6652 /* libProtocolBuffers.a in Frameworks */,
+				7981B565DE8A4B66865A44D4 /* AddressBook.framework in Frameworks */,
+				D19E35522DBF484DAF9A50BB /* libsqlite3.tbd in Frameworks */,
+				24A7A89978BC4F81839BFDEB /* libz.tbd in Frameworks */,
+				F5C1C632A682436EAE85D470 /* AudioToolbox.framework in Frameworks */,
+				A22690B7690647C0B926374D /* SystemConfiguration.framework in Frameworks */,
+				8FB80DE755EB45948764138C /* CoreTelephony.framework in Frameworks */,
+				423B63EECC4B47509BB40744 /* Social.framework in Frameworks */,
+				79BA62967E0D41A4A26C080A /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "Marino Mobili Arredamenti/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Marino Mobili Arredamenti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Marino Mobili Arredamenti-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = "Marino Mobili Arredamenti";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* Marino Mobili Arredamenti-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				09BE7A5F5C5A4CA9B4757DC1 /* CDVNotification.bundle */,
+			);
+			name = Resources;
+			path = "Marino Mobili Arredamenti/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FDC2154CC0C488E85936B95 /* libGGLCloudMessaging.a */,
+				6E5AF86E1F6B4BE08C5B8D57 /* libGGLCore.a */,
+				D2301D8854264E5FB2C86033 /* libGGLInstanceIDLib.a */,
+				60EE095821CA47ABB19CD4E9 /* libGIP_Reachability.a */,
+				F32A3FBB40D747219650737D /* libGSDK_Overload.a */,
+				0BE2782D05E643DABF19F8DB /* libGTMSessionFetcher_core.a */,
+				7B9E72DC5B154FA1834E171C /* libGTMSessionFetcher_full.a */,
+				7F4D93F69B044993A26D8F28 /* libGTMStackTrace.a */,
+				3726A2877A4E4368B7F82B2E /* libGTM_AddressBook.a */,
+				E0B854A66CC04684BC92E530 /* libGTM_DebugUtils.a */,
+				B77A59345FDF4C3D86F1A468 /* libGTM_GTMURLBuilder.a */,
+				6D6D6CE411C946FC98C83368 /* libGTM_KVO.a */,
+				99BE07C8644443F890FDF675 /* libGTM_NSData+zlib.a */,
+				F1EED6EB38B64756A293A5A8 /* libGTM_NSDictionary+URLArguments.a */,
+				C5C87731EA324C2791D15C69 /* libGTM_NSScannerJSON.a */,
+				0F8BF2F7AC62437AAD238774 /* libGTM_NSStringHTML.a */,
+				10A46FD6245E49B58AD0E944 /* libGTM_NSStringXML.a */,
+				7F4FD15981A94A878D4CC569 /* libGTM_Regex.a */,
+				9C5BFEE7895F473A96997D3B /* libGTM_RoundedRectPath.a */,
+				0B6CCA9AF8534EA0A0A4E9DC /* libGTM_StringEncoding.a */,
+				36762CEED1B7479E928FC511 /* libGTM_SystemVersion.a */,
+				BCA5EF3EA31E4078B05E0459 /* libGTM_UIFont+LineHeight.a */,
+				6F767C1A4AA44835ABBEC37B /* libGTM_core.a */,
+				EDF634149D3E4995B61132D8 /* libGTM_iPhone.a */,
+				CEC19E97446B4AA5AC94499F /* libGcmLib.a */,
+				75748E549ABE4811903F603A /* libProtocolBuffers.a */,
+				19D6B3D710474BD9875B0F25 /* AddressBook.framework */,
+				8EE6BBD0DBD641038803CA18 /* libsqlite3.tbd */,
+				9B46B364B957433DAC65BB7A /* libz.tbd */,
+				4D97D62E0D7C4B6FB4AF1CD3 /* AudioToolbox.framework */,
+				5FB3A2D1B3924FD6A3737D3C /* SystemConfiguration.framework */,
+				A78AC67DD5904FABA56E3CD2 /* CoreTelephony.framework */,
+				7433F0CBF2FB4BC1B57B17B6 /* Social.framework */,
+				5C479C937C4F4063A4E427DF /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				D92EE7E4CF9B439DA26D8A01 /* AppDelegate+notification.m */,
+				EB51AEFA8B4F47ABAD637370 /* PushPlugin.m */,
+				68C2ADEB8883455CA787D5C7 /* AppDelegate+notification.h */,
+				8E2044A3FA4C44B3A32C85F5 /* PushPlugin.h */,
+				6DB3FD7B3D604F8689BA7D63 /* GGLInstanceID.h */,
+				8106D4E7F4A44DEFBBC0B6D9 /* GGLInstanceIDConfig.h */,
+				8359B65EC31A4382A05BC592 /* GGLInstanceIDDelegate.h */,
+				9734C87AACC649B5A4C60571 /* GGLInstanceIDHeaders.h */,
+				F9E52CB55C2E4818AA696C9E /* CloudMessaging.h */,
+				9804D95CC803472BABBDCD72 /* GGLContext+CloudMessaging.h */,
+				69F7814189C84AE780DE3AAF /* Core.h */,
+				1A928DD445244C269EC284F9 /* GGLConfiguration.h */,
+				261B9D3ABA97424190F0CE0C /* GGLContext.h */,
+				1882EEF5539B48E28F104920 /* GGLErrorCode.h */,
+				70789052AC904329BEC3A629 /* GCMConfig.h */,
+				E990AB98F7824E6380189FA0 /* GCMPubSub.h */,
+				317ED0874716434AA801A67D /* GCMReceiverDelegate.h */,
+				0195F3B43F694318BC58FE25 /* GCMService.h */,
+				59DBE4125AC348F18787DEBB /* GoogleCloudMessaging.h */,
+				8ACC88079C8B4F0694C6A9EF /* CDVDevice.m */,
+				CED777DFE33344179DB7EE6C /* CDVDevice.h */,
+				E71ACD90B4A64B81BC3182C1 /* CDVNotification.m */,
+				6E6E3375F4AC4F2F8BF1B470 /* CDVNotification.h */,
+				CE55B8D1C38A4E04910761B8 /* CDVInAppBrowser.m */,
+				9C7DE3857326418AB7B34DC8 /* CDVInAppBrowser.h */,
+				B927600C6C1C42C48DECEA14 /* CDVConnection.m */,
+				DE13C5FDBC9F4A7881D660CB /* CDVReachability.m */,
+				0AB7BD2047A54765ABEDA1E3 /* CDVConnection.h */,
+				79425A6481354912ACF4A937 /* CDVReachability.h */,
+				47AC41BDF2724FD78A1E0300 /* CDVStatusBar.m */,
+				4A167444779D4F55BF977CDF /* CDVStatusBar.h */,
+				6074B81029B240319C1648D9 /* NSString+SSURLEncoding.m */,
+				223C74094F8A4B48AA963435 /* SocialSharing.m */,
+				EE0BA611B0D34AAEB0A39A41 /* NSString+SSURLEncoding.h */,
+				49CD4AF19A4949E5A53FB0C4 /* SocialSharing.h */,
+			);
+			name = Plugins;
+			path = "Marino Mobili Arredamenti/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Marino Mobili Arredamenti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Marino Mobili Arredamenti" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = "Marino Mobili Arredamenti";
+			productName = "Marino Mobili Arredamenti";
+			productReference = 1D6058910D05DD3D006BFB54 /* Marino Mobili Arredamenti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Marino Mobili Arredamenti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				207D15A3250B4E95B8241D2A /* CDVNotification.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				AF123988D21B4BF6A442645F /* AppDelegate+notification.m in Sources */,
+				DF70A2881253414EB5CF6AE3 /* PushPlugin.m in Sources */,
+				2C9B29F0BE2548E6A5AF4C04 /* CDVDevice.m in Sources */,
+				2D32E881B3E64C38828C6AFA /* CDVNotification.m in Sources */,
+				A8D8597D39354FD0B5AEFA09 /* CDVInAppBrowser.m in Sources */,
+				0D9C24354F8B4C7BBAE27118 /* CDVConnection.m in Sources */,
+				40374D619CA54BBB925BD4E1 /* CDVReachability.m in Sources */,
+				06CD27A174E24301A8D84DD2 /* CDVStatusBar.m in Sources */,
+				080AC09173EF4787BEFF341D /* NSString+SSURLEncoding.m in Sources */,
+				CD55C58D305D4FF9A29ED55C /* SocialSharing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marino Mobili Arredamenti/Marino Mobili Arredamenti-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Marino Mobili Arredamenti/Marino Mobili Arredamenti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "Marino Mobili Arredamenti";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+				);
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marino Mobili Arredamenti/Marino Mobili Arredamenti-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Marino Mobili Arredamenti/Marino Mobili Arredamenti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "Marino Mobili Arredamenti";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+					"\"$(SRCROOT)/Marino Mobili Arredamenti/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+				);
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Marino Mobili Arredamenti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
