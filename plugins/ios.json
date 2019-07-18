@@ -7,10 +7,17 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-custom-config": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "xxxxx",
             "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
         },
         "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+        },
+        "cordova-custom-config": {
             "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
         },
         "cordova-plugin-dialogs": {
@@ -25,14 +32,7 @@
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
         },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
-        },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
-        },
-        "phonegap-plugin-push": {
-            "SENDER_ID": "xxxxx",
             "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
         }
     },
