@@ -8,37 +8,37 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "phonegap-plugin-push": {
             "SENDER_ID": "xxxxx",
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "cordova-custom-config": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         }
     },
     "dependent_plugins": {
         "es6-promise-plugin": {
-            "PACKAGE_NAME": "com.designbest.marinomobiliarredamenti"
+            "PACKAGE_NAME": "com.marinomobiliarredamenti.MarinoMobiliArredamenti"
         }
     }
 }
